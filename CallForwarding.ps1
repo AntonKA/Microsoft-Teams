@@ -1,5 +1,5 @@
 ﻿#This well set callforwarding to an external phone number (PSTN)
-Set-CsUserCallingSettings -Identity UserName@domain.com -IsForwardingEnabled $true -ForwardingType Immediate -ForwardingTarget +962799887999 -ForwardingTargetType SingleTarget
+Set-CsUserCallingSettings -Identity UserName@domain.com -IsForwardingEnabled $true -ForwardingType Immediate -ForwardingTarget +4512345678 -ForwardingTargetType SingleTarget
 
 #This will get the current call forwarding settings
 Get-CsUserCallingSettings -Identity UserName@domain.com
